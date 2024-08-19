@@ -1,0 +1,71 @@
+body {
+    background-color: rgba(164, 182, 206, 0.904);
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 70px;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(90, 109, 133, 0.904);
+    height: 70px;
+
+}
+
+li a {                          
+    text-decoration: none;
+    color: White;
+    font-size: 22px;
+
+}                /* ao passar o mouse, muda a cor para azul */
+li a:hover {
+    background-color: #142270;
+    color: white;
+}
+
+.frase {        /*Frase de boas vindas ao site*/
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    height: 50px;
+    background-color: rgb(82, 111, 150);
+    color: white;
+    font-size: 22px;
+
+}
+
+img {
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin-top:  50px;
+    margin-left: 100px;
+}
+
+.caixa{        /*Caixa que contém as informações sobre mim*/
+    border: 2px solid white;
+    width: 61%;
+    float: right;
+    height: 330px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.texto {
+    padding-left: 15px;
+    font-size: 20px;
+    color: rgb(27, 55, 133);
+    margin-top: 30px;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 20px;
+    color: rgb(27, 55, 133);
+    padding: auto;
+  
+}
