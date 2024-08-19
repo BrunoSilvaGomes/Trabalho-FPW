@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(164, 182, 206, 0.904);
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 70px;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(90, 109, 133, 0.904);
+    height: 70px;
+
+}
+li a {                          
+    text-decoration: none;
+    color: White;
+    font-size: 22px;
+
+}                 /* ao passar o mouse, muda a cor para azul */
+li a:hover {
+    background-color: #142270;
+    color: white;
+}
+
+.formulario {
+    border: 1px solid white;
+    height: 230px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.tabela{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.texto{          /*Texto dentro da tabela, contendo Nome, E-mail e Mensagem*/
+    font-size: 25px;
+    color: rgb(27, 55, 133);
+    padding-bottom: 50px;
+}

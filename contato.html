@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio pessoal</title>
+    <link rel="stylesheet" type="text/css" href="contato.css" media="screen" />
+</head>
+<body>
+    <header>
+     <nav>
+         <ul class="links"> <!--Links de navegação em negrito-->
+             <li><a href="index.html"><b> SOBRE MIM</b> </a></li>
+             <li><a href="Formação.html"><b>FORMAÇÃO EDUCACIONAL</b></a></li>
+             <li><a href="portfolio.html"><b> PORTFÓLIO </b></a></li>
+             <li><a href="contato.html"><b> CONTATO </b></a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <h1 style="padding-top: 30px; text-align: center; color: rgb(27, 55, 133); font-size: 40px;">Contato:</h1>
+    
+    <div class="formulario">    <!--Div que forma o contorno da tabela-->
+    
+    <form method="post">
+        <table class="tabela">      <!--Tabela contendo Nome, E-mail e Mensagem-->
+         <tr class="texto">
+            <th><label for="name">NOME:</label></th>
+            <td><input type="text" name="nome" id="nome"></label></td>
+            <tr></tr>
+         </tr>
+
+        <tr class="texto">
+            <th><label for="email">E-MAIL:</label></th>
+            <td><input type="email" name="email" id="email"></label></td>
+        </tr>
+        
+        <tr><td style="color:rgb(27, 55, 133);">----------------------</td></tr> <!--Linha que cria um espaço entre os textos-->
+         
+        <tr class="texto">
+            <th><label for="msg">MENSAGEM:</label></th>
+            <td><textarea type="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+        </tr>
+       </table>
+    </form>
+    </div>
+</body>
+</html>
